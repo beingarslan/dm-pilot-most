@@ -1,0 +1,7 @@
+body.settings-integrations form .nav-tabs {
+    margin: 20px 0 0 0;
+    padding: 0 10px;
+}
+body.settings-integrations form .nav-tabs .nav-link {
+    padding: 0 0 1rem 0;
+}

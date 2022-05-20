@@ -1,0 +1,106 @@
+.btn-clean {
+    border-color: transparent;
+    box-shadow: none;
+}
+.alert {
+    padding: 0.45rem 0.70rem;
+}
+.dropdown-item {
+    padding: 0.25rem 1rem;
+}
+.footer .dropdown-item.active, .footer .dropdown-item:active, .dropdown-item.active .dropdown-icon, .dropdown-item:active .dropdown-icon {
+    color: #fff;
+}
+.dropdown-item.active .text-muted, .dropdown-item:active .text-muted {
+    color: #fff !important;
+}
+.dimmer.active .dimmer-content {
+    opacity: .5;
+}
+.card-list-group .list-group-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.col-login {
+    max-width: 24.5rem;
+}
+.avatar-shortname div {
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 2ch;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.custom-switch {
+    padding: 0;
+}
+body.direct-index #messages_list .input-group {
+    flex-wrap: unset;
+}
+body.direct-index #messages_list .message-text {
+    height: 38px;
+    line-height: 25px;
+}
+body.direct-index #messages_list .emojionearea-button {
+    top: 5px;
+}
+.media-manager .btn-upload {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.media-manager .btn-upload input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 200px !important;
+    direction: ltr;
+    cursor: pointer;
+}
+.media-manager .media-files-container {
+    height: 465px;
+    overflow-y: scroll;
+}
+body.media-index .media-files-container .media-file {
+    width: 127px;
+}
+/* Fixes for IE < 8 */
+
+.selectize-control.location-lookup::before, .selectize-control.account-lookup::before {
+    -moz-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    content: ' ';
+    z-index: 2;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 34px;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 0;
+    background: url('/public/img/spinner.gif');
+    background-size: 16px 16px;
+    opacity: 0;
+}
+.selectize-control.location-lookup.loading::before, .selectize-control.account-lookup.loading::before {
+    opacity: 0.4;
+}
+@media screen\9 {
+    .media-manager .btn-upload input {
+        filter: alpha(opacity=0);
+        font-size: 100%;
+        height: 100%;
+    }
+}
+.dm-viewer-container img {
+    cursor: zoom-in;
+}
+@media (min-width: 1280px) {
+    .table-responsive {
+        overflow-x: visible;
+    }
+}

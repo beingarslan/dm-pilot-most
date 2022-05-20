@@ -1,0 +1,63 @@
+body.post-create .media-files-container {
+    max-height: 465px;
+    min-height: 120px;
+    overflow-y: scroll;
+}
+body.post-create .media-files-container .media-file {
+    width: 112px;
+}
+body.post-create .image-preview {
+    min-height: 250px;
+    background-color: #f5f5f5;
+}
+body.post-create .avatar {
+    background-color: #f5f5f5;
+}
+body.post-create .preview-username {
+    font-weight: 600;
+}
+body.post-create .preview-username.active, body.post-create .preview-location.active, body.post-create .preview-caption.active span {
+    width: 14em;
+    display: block;
+    height: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+}
+body.post-create .preview-location.active, body.post-create .preview-caption.active span:last-child {
+    width: 10em;
+}
+body.post-create .preview-caption img {
+    height: 2ex;
+    width: 2.1ex;
+    min-height: 20px;
+    min-width: 20px;
+    display: inline-block;
+    margin: -.2ex .15em .2ex;
+    line-height: normal;
+    vertical-align: middle;
+    max-width: 100%;
+}
+body.post-create .preview-story, body.post-create .preview-timeline {
+    height: 100%;
+}
+body.post-create .preview-story {
+    background-color: #000;
+    background-image: url('/public/img/ig-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body.post-create .preview-story .image {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body.post-create #carousel {
+    height: 100%;
+}
+body.post-create .carousel-indicators {
+    margin-bottom: -20px;
+}
+body.post-create .carousel-indicators li {
+    background-color: #2f88ef;
+}
